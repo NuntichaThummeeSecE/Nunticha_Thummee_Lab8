@@ -17,3 +17,8 @@ getRandomCat();
 //add eventlistener to click button --> get random cat image when click
 document.getElementById(`next`).addEventListener(`click`, getRandomCat);
 
+/*--explanation of the chosen API--
+I found this API interesting because according to myself as a cat person, 
+It is cool that I can get random images of the cat.
+Moreover, I enjoy coding it because every time I typing the character
+the cat images are always changing.*/
