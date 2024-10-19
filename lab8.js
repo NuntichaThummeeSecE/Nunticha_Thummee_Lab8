@@ -9,3 +9,9 @@ function getRandomCat() {
     })
     .catch(error => console.error(`Error fretching data: `, error));
 }
+
+window.addEventListener("load", () => {
+    getRandomCat();
+});
+
+document.getElementById(`next`).addEventListener(`click`, getRandomCat);
