@@ -1,10 +1,12 @@
 body {
-    background-color: bisque;
+    background-color: rgba(24, 7, 120, 0.176);
 }
 
 h3 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Pangolin", cursive;
     font-weight: 700;
+    font-size: 2em;
+    color: rgb(135, 106, 163);
 }
 
 section {
@@ -28,4 +30,18 @@ section {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+}
+
+h5 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: rgb(135, 106, 163);
+}
+
+#next{
+    background-color:rgb(135, 106, 163);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 15px;
+    color: white;
 }
