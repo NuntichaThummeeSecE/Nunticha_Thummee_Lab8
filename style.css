@@ -16,14 +16,15 @@ section {
 }
 
 #card {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     overflow: hidden;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #card img {
@@ -44,4 +45,11 @@ h5 {
     padding: 8px 20px;
     border-radius: 15px;
     color: white;
+    box-shadow: 2px 4px 0 rgb(72, 51, 93);
+}
+
+#next:hover{
+    background-color: white;
+    color: rgb(135, 106, 163);
+    box-shadow: 2px 6px 0 rgb(143, 118, 167);
 }
