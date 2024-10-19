@@ -1,4 +1,4 @@
-
+//function get random cat images from the `the cat api`
 function getRandomCat() {
     fetch(`https://api.thecatapi.com/v1/images/search`)
     .then(response => response.json())
@@ -10,8 +10,8 @@ function getRandomCat() {
     .catch(error => console.error(`Error fretching data: `, error));
 }
 
-window.addEventListener("load", () => {
-    getRandomCat();
-});
+//call the getRandomCat function to display random cat images
+getRandomCat();
 
+//add eventlistener to click button --> get random cat image when click
 document.getElementById(`next`).addEventListener(`click`, getRandomCat);
