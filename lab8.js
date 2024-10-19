@@ -5,10 +5,8 @@ function getRandomCat() {
     .then (data => {
         console.log(data);
         let catImg = data[0].url;
-        let breedInfo = data[0].breed[0];
-
+        
         document.getElementById(`catImage`).src = catImg;
-        document.getElementById(`breedName`).textContent = JSON.stringify(data);
     })
     .catch(error => console.error(`Error fretching data: `, error));
 }
